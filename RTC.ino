@@ -1,3 +1,5 @@
+//https://forum.arduino.cc/t/how-to-set-an-alarm-with-the-ds1302-real-time-clock/594882
+//https://m.blog.naver.com/chandong83/221451714944
 
 #define countof(a) (sizeof(a) / sizeof(a[0]))
 
