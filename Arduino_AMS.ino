@@ -49,9 +49,7 @@ void setup ()
 
     //EEPROM
     writeStringToEEPROM(0, versionSrt);
-    String retrievedString = readStringFromEEPROM(0);
-    Serial.print("The String we read from EEPROM: ");
-    Serial.println(retrievedString);
+    startEEPROMsetup();
     
     pinMode(v_led,OUTPUT); // 적외선 led 출력으로 설정
     
